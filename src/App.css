@@ -1,0 +1,18 @@
+.container{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.btn{
+    margin-top: 20px;
+}
+span{
+    color: red;
+    font-size: small;
+    display: none;
+}
+
+input:invalid ~ span{
+    display: block;
+}
